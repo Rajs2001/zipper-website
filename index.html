@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Mess - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF6B6B',
+                        secondary: '#4ECDC4',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-primary text-white p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">Online Mess</a>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:text-secondary">Home</a></li>
+                <li><a href="about.html" class="hover:text-secondary">About</a></li>
+                <li><a href="contact.html" class="hover:text-secondary">Contact</a></li>
+                <li><a href="terms.html" class="hover:text-secondary">Terms</a></li>
+                <li><a href="privacy.html" class="hover:text-secondary">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto mt-8 p-4">
+        <h1 class="text-4xl font-bold text-center mb-8">Welcome to Online Mess</h1>
+        <p class="text-lg text-center mb-8">Delicious, homemade meals delivered right to your doorstep!</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-4">Today's Special</h2>
+                <p>Check out our daily specials and enjoy a tasty meal!</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-4">How It Works</h2>
+                <p>Learn about our simple ordering process and start enjoying homemade meals today!</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-4">Join as a Mess Partner</h2>
+                <p>Are you a great cook? Partner with us and share your delicious meals!</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Online Mess. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // You can add any JavaScript functionality here
+    </script>
+</body>
+</html>
+
